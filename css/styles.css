@@ -1,4 +1,21 @@
 h1 {
     font-family: 'Playfair Display', serif;
-    background-color: pink;
+    font-size: 96px;
+    margin-top: 0px;
+    
+}
+ h2 {
+     
+     font-family: font-family: 'Poppins', sans-serif;
+     margin-top: 0px;
+ }
+.hero {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0px;
 }
