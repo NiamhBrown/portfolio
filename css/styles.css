@@ -4,6 +4,26 @@
   --primary-color: orange;
   --secondary-color: antiquewhite;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  .hero p {
+    font-size: 25px;
+  }
+  .navigation-links a {
+    margin: 3px;
+  }
+  .project-description {
+    margin: 0px;
+    text-align: center;
+  }
+}
+
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
@@ -39,7 +59,8 @@ p {
 }
 
 .navigation-links {
-  font-display: flex;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation-links a {
