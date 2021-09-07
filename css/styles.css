@@ -17,11 +17,14 @@ h2 {
 }
 h3{
     font-family: var(--heading-font-family);
+    font-size: 43px;
 }
 
 p{
     font-family: var(--default-font-family);
+    line-height: 1.7;;
 }
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -78,12 +81,16 @@ p{
 }
 
 .container {
-    background: blue;
+    background-color: blanchedalmond;
     padding: 30px
 }
+    .recent-project{
+        font-size: 32px;
+    }
 .preview-img{
-    padding: 10px;
     border-radius: 5px;
+    margin: 0px;
+    
 }
 .project-description {
     margin: 120px 60px;
