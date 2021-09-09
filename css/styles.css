@@ -7,7 +7,7 @@
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 4px;
   }
   h2 {
     font-size: 15px;
@@ -117,5 +117,5 @@ p {
   margin: 0px;
 }
 .project-description {
-  margin: 120px 60px;
+  margin: 40px 0px;
 }
