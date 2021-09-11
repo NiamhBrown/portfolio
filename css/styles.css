@@ -6,14 +6,14 @@
 }
 
 @media (max-width: 900px) {
-  h1 {
-    font-size: 4px;
+  .name-heading {
+    font-size: 44px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 14px;
   }
-  .hero p {
-    font-size: 25px;
+  .greeting-p {
+    font-size: 50px;
   }
   .navigation-links a {
     margin: 3px;
@@ -21,6 +21,10 @@
   .project-description {
     margin: 0px;
     text-align: center;
+    font-size: 25px;
+  }
+  .project-description p {
+    font-size: 18px;
   }
 }
 
