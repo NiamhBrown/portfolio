@@ -133,4 +133,8 @@ p {
   .about-section p {
     font-size: 18px;
   }
+
+  .technology-section {
+    font-size: 12px;
+  }
 }
