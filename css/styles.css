@@ -5,29 +5,6 @@
   --secondary-color: antiquewhite;
 }
 
-@media (max-width: 900px) {
-  .name-heading {
-    font-size: 44px;
-  }
-  h2 {
-    font-size: 14px;
-  }
-  .greeting-p {
-    font-size: 50px;
-  }
-  .navigation-links a {
-    margin: 3px;
-  }
-  .project-description {
-    margin: 0px;
-    text-align: center;
-    font-size: 25px;
-  }
-  .project-description p {
-    font-size: 18px;
-  }
-}
-
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
@@ -122,4 +99,31 @@ p {
 }
 .project-description {
   margin: 40px 0px;
+}
+
+@media (max-width: 900px) {
+  .name-heading {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+
+  .hero p {
+    font-size: 30px;
+  }
+  .navigation-links a {
+    margin: 3px;
+  }
+  .project-description {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .project-description h3 {
+    font-size: 40px;
+  }
+  .project-description p {
+    font-size: 18px;
+  }
 }
