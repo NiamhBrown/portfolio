@@ -47,6 +47,8 @@ p {
 .navigation-links a {
   margin: 20px;
 }
+
+
 .primary-btn {
   font: var(--default-font-family);
   color: var(--secondary-color);
@@ -103,6 +105,13 @@ p {
 
 .profile-img {
   width: 300px;
+  margin-top: 25px;
+}
+
+.fab {
+  color: pink;
+  font-size: 20px;
+  
 }
 
 @media (max-width: 900px) {
@@ -137,4 +146,10 @@ p {
   .technology-section {
     font-size: 12px;
   }
+  .about-section  {
+    text-align:justify;
+    
+  }
+
+  
 }
