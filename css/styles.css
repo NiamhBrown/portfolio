@@ -83,7 +83,7 @@ p {
   color: var(--secondary-color);
 }
 
-.container {
+.recent-project-container {
   border: 3px solid blanchedalmond;
   border-radius: 10px;
   padding: 30px;
@@ -107,10 +107,15 @@ p {
   margin-top: 25px;
 }
 
-.fab {
-  font-size: 20px;
+.about-btns {
+  position: relative;
+  left: -23px;
+  margin-top: 35px;
+  justify-content: center;
 }
-
+.about-btns a {
+  margin: 20px;
+}
 .technology-section {
   margin: 10px 60px;
 }
@@ -162,5 +167,10 @@ p {
   .technology-section,
   .certificate-section {
     margin: 30px;
+  }
+
+  .about-btns {
+    display: flex;
+    justify-content: center;
   }
 }
