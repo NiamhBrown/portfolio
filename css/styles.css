@@ -111,9 +111,11 @@ p {
   font-size: 20px;
 }
 
-.certificate-section,
 .technology-section {
-  margin: 60px;
+  margin: 10px 60px;
+}
+.certificate-section {
+  margin: 10px 150px;
 }
 
 @media (max-width: 900px) {
@@ -157,7 +159,8 @@ p {
   .about-section a {
     text-align: center;
   }
-  .technology-section, .certificate-section {
+  .technology-section,
+  .certificate-section {
     margin: 30px;
   }
 }
