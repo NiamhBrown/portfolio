@@ -172,5 +172,7 @@ p {
   .about-btns {
     display: flex;
     justify-content: center;
+    position: relative;
+    left: 1px;
   }
 }
