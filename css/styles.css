@@ -7,6 +7,7 @@
 
 body {
   background-color: #eddae8;
+  padding: 50px;
 }
 
 h1 {
@@ -36,13 +37,22 @@ p {
 .name {
   font-size: 57px;
 }
-.primary-btn {
+.primary-btn,
+.primary-btn-home {
   font: var(--default-font-family);
   color: black;
+  text-decoration: none;
   border-radius: 4px;
   padding: 10px 30px;
   margin: 5px;
   text-decoration: none;
   border: 1px solid black;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.primary-btn-home {
+  font-size: 20px;
+}
+
+.card-preview {
+  margin-top: 40px;
 }
