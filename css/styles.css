@@ -1,12 +1,13 @@
 :root {
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --primary-color: orange;
-  --secondary-color: pink;
+  --primary-color: fuchsia;
+  --secondary-color: orange;
 }
 
 body {
-  background-color: #eddae8;
+   background-color: #eddae8;
+  /* background: radial-gradient(circle at 10% 20%, rgb(244, 186, 186) 0%, rgb(194, 157, 231) 90%); */
   padding: 50px;
 }
 
@@ -15,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
 }
 p {
   font-family: var(--default-font-family);
@@ -27,6 +28,7 @@ p {
   margin: 170px auto;
   padding: 70px;
   text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .greeting {
@@ -36,6 +38,10 @@ p {
 }
 .name {
   font-size: 57px;
+}
+
+.hero-subtitle {
+  font-family: var(--default-font-family);
 }
 .primary-btn,
 .primary-btn-home {
@@ -53,6 +59,29 @@ p {
   font-size: 20px;
 }
 
+.primary-btn:hover,
+.primary-btn-home:hover {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.recent-project-section {
+  
+  margin: 0 auto;
+  width: auto;
+}
+
+.card {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
 .card-preview {
-  margin-top: 40px;
+  margin-top: 8px;
+}
+
+.card-text {
+  font-size: 15px;
+}
+.img-preview:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=100);
 }
