@@ -6,7 +6,7 @@
 }
 
 body {
-   background-color: #eddae8;
+  background-color: #eddae8;
   /* background: radial-gradient(circle at 10% 20%, rgb(244, 186, 186) 0%, rgb(194, 157, 231) 90%); */
   padding: 50px;
 }
@@ -65,12 +65,15 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.recent-project-section {
-  
-  margin: 0 auto;
-  width: auto;
-}
 
+.link {
+  color: black;
+  text-decoration: none;
+  font-family: var(--default-font-family);
+}
+.link:hover {
+  color: var(--primary-color);
+}
 .card {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -84,4 +87,8 @@ p {
 .img-preview:hover {
   opacity: 0.5;
   filter: alpha(opacity=100);
+}
+
+.technology-section{
+  font-family: var(--default-font-family);
 }
