@@ -100,10 +100,11 @@ font-size: 30px;
 
 .technology-section{
   font-family: var(--default-font-family);
+  margin: 70px 0px;
 }
 .logo-row{
   background-color: white;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
