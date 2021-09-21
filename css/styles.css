@@ -96,6 +96,10 @@ p {
   filter: alpha(opacity=100);
 }
 
+.about-container {
+  display: block;
+  margin: 30px auto;
+}
 .about-heading {
   font-size: 56px;
 }
@@ -114,8 +118,4 @@ p {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* .project-content {
-  margin: 170px auto;
-  padding: 70px;
-  text-align: center;
-} */
+
