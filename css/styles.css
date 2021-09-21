@@ -50,7 +50,7 @@ p {
   text-decoration: none;
   border-radius: 4px;
   padding: 10px 30px;
-  margin: 5px;
+  margin: 5px 0px;
   text-decoration: none;
   border: 1px solid black;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -93,6 +93,17 @@ font-size: 30px;
   filter: alpha(opacity=100);
 }
 
+
+.about-heading{
+  font-size: 56px;
+}
+
 .technology-section{
   font-family: var(--default-font-family);
+}
+.logo-row{
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
