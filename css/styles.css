@@ -65,28 +65,27 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-
 .link {
   color: black;
   text-decoration: none;
   font-family: var(--default-font-family);
   position: relative;
-  left: 235px;
+  left: 140px;
 }
 .link:hover {
   color: var(--primary-color);
 }
 .card {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  position: relative;
-  left: 235px;
+  display: block;
+  margin: 30px auto;
 }
 .card-preview {
   margin-top: 8px;
 }
 .card-title {
-font-size: 30px;
-    font-family: var(--default-font-family);
+  font-size: 30px;
+  font-family: var(--default-font-family);
 }
 .card-body {
   margin: 10px auto;
@@ -97,16 +96,15 @@ font-size: 30px;
   filter: alpha(opacity=100);
 }
 
-
-.about-heading{
+.about-heading {
   font-size: 56px;
 }
 
-.technology-section{
+.technology-section {
   font-family: var(--default-font-family);
   margin: 70px 0px;
 }
-.logo-row{
+.logo-row {
   background-color: white;
   padding: 10px;
   border-radius: 5px;
