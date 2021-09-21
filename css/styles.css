@@ -99,6 +99,9 @@ p {
 .about-heading {
   font-size: 56px;
 }
+.about-p {
+  line-height: 1.7;
+}
 
 .technology-section {
   font-family: var(--default-font-family);
