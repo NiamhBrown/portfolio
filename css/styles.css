@@ -70,7 +70,7 @@ p {
   text-decoration: none;
   font-family: var(--default-font-family);
   position: relative;
-  left: 140px;
+  left: 230px;
 }
 .link:hover {
   color: var(--primary-color);
