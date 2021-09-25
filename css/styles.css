@@ -136,3 +136,7 @@ p {
 .secondary-link{
   text-align: center;
 }
+
+.project-button a{
+  margin-right: 20px;
+}
