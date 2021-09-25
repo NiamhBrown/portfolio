@@ -142,7 +142,7 @@ p {
 }
 
 nav {
-  padding: 20px;
+  padding: 0px 20px;
   background-color: #dfbdf2;
   box-shadow: var(--box-shadow);
 }
@@ -155,7 +155,7 @@ nav {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 40px;
+  line-height: 100px;
   margin-left: 15px;
 }
 
