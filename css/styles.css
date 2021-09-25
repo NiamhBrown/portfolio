@@ -88,7 +88,7 @@ p {
 .card-preview {
   margin-top: 8px;
 }
-.card-title {
+.card-title, .card{
   font-size: 30px;
   font-family: var(--default-font-family);
 }
