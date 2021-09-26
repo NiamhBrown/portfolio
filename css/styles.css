@@ -8,7 +8,11 @@
 
 body {
   background-color: #eddae8;
-  padding: 150px;
+}
+nav {
+  background-color: #dfbdf2;
+  box-shadow: var(--box-shadow);
+  height: 95px;
 }
 
 h1 {
@@ -22,8 +26,19 @@ p {
   font-family: var(--default-font-family);
   line-height: 1.7;
 }
+footer {
+  padding: 5px;
+  margin-top: 45px;
+  background-color: #dfbdf2;
+  text-align: center;
+}
 
-
+.index-content,
+.about-content,
+.work-content,
+.contact-content {
+  padding: 150px 150px 0px 150px;
+}
 .hero-content {
   background-image: url("../images/background-image.png");
   border-radius: 10px;
@@ -139,11 +154,6 @@ p {
   margin-right: 20px;
 }
 
-nav, .footer {
-  background-color: #dfbdf2;
-  box-shadow: var(--box-shadow);
-}
-
 .logo {
   max-width: 140px;
   height: 100px;
@@ -155,7 +165,7 @@ nav, .footer {
   font-size: 30px;
 }
 .nav-link {
-  font-family:  var(--default-font-family);
+  font-family: var(--default-font-family);
   font-size: 20px;
   color: black !important;
 }
@@ -165,6 +175,9 @@ nav, .footer {
   color: var(--primary-color) !important ;
 }
 
+.social-links {
+  font-size: 25px;
+}
 
 @media (max-width: 400px) {
   .hero-content {
