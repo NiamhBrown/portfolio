@@ -9,10 +9,11 @@
 body {
   background-color: #eddae8;
 }
+
 nav {
   background-color: #dfbdf2;
   box-shadow: var(--box-shadow);
-  height: 95px;
+  
 }
 
 h1 {
@@ -38,12 +39,14 @@ footer {
 .work-content,
 .contact-content {
   padding: 150px 150px 0px 150px;
+
 }
+  
 .hero-content {
   background-image: url("../images/background-image.png");
   border-radius: 10px;
   max-width: 700px;
-  margin: 170px auto;
+  margin: 25px auto 170px;
   padding: 70px;
   text-align: center;
   box-shadow: var(--box-shadow);
@@ -131,7 +134,8 @@ footer {
 }
 .logo-row {
   background-color: white;
-  padding: 10px;
+  padding: 20px;
+  font-size: 15px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
@@ -180,6 +184,14 @@ footer {
 }
 
 @media (max-width: 400px) {
+
+  .index-content,
+.about-content,
+.work-content,
+.contact-content {
+  padding: 150px 10px 10px 10px;
+
+}
   .hero-content {
     margin: 0px 0px 70px 0px;
   }
@@ -194,7 +206,24 @@ footer {
     font-size: 22px;
   }
 
+  .about-me-section h2 {
+    font-size: 22px;
+  }
+.profile-img {
+  margin-top: 30px;
+}
+
+.about-section-btn {
+  justify-content: center;
+}
   .card-body {
     text-align: center;
+  }
+
+  .page-heading {
+    font-size: 41px;
+  }
+  .footer-text {
+    font-size: 14px;
   }
 }
