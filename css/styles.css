@@ -96,7 +96,6 @@ footer {
 }
 .text-link {
   color: var(--primary-color);
-  
 }
 .link:hover {
   color: var(--primary-color);
@@ -212,12 +211,14 @@ footer {
   .about-me-section h2 {
     font-size: 22px;
   }
-  .profile-img {
-    margin-top: 30px;
+  .profile-img img {
+    margin: 40px auto 5px;
+    display: block;
   }
 
   .about-section-btn {
-    justify-content: center;
+    margin: 40px auto 5px;
+    display: block;
   }
   .card-body {
     text-align: center;
