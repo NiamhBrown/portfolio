@@ -139,7 +139,7 @@ p {
   margin-right: 20px;
 }
 
-nav {
+nav, .footer {
   background-color: #dfbdf2;
   box-shadow: var(--box-shadow);
 }
@@ -165,9 +165,7 @@ nav {
   color: var(--primary-color) !important ;
 }
 
-.footer {
-  background-color:palevioletred;
-}
+
 @media (max-width: 400px) {
   .hero-content {
     margin: 0px 0px 70px 0px;
