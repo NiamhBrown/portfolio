@@ -8,8 +8,6 @@
 
 body {
   background-color: #eddae8;
-  /* background: radial-gradient(circle at 10% 20%, rgb(244, 186, 186) 0%, rgb(194, 157, 231) 90%); */
-  padding: 50px;
 }
 
 h1 {
@@ -22,6 +20,10 @@ h2 {
 p {
   font-family: var(--default-font-family);
   line-height: 1.7;
+}
+
+.body-content {
+  padding: 50px;
 }
 .hero-content {
   background-image: url("../images/background-image.png");
@@ -84,9 +86,6 @@ p {
   margin: 30px auto;
   padding: 25px;
 }
-.card-preview {
-  margin-top: 8px;
-}
 .card-title,
 .card {
   font-size: 30px;
@@ -145,6 +144,7 @@ nav {
   padding: 0px 20px;
   background-color: #dfbdf2;
   box-shadow: var(--box-shadow);
+  height: 95px;
 }
 .logo {
   max-width: 140px;
@@ -167,4 +167,24 @@ nav a {
   font-family: var(--default-font-family);
   color: black;
   text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  .hero-content {
+    margin: 0px 0px 70px 0px;
+  }
+
+  .greeting {
+    font-size: 25px;
+  }
+.name {
+  font-size: 60px;
+}
+  .hero-subtitle {
+    font-size: 22px;
+  }
+
+  .card-body {
+    text-align: center;
+  }
 }
