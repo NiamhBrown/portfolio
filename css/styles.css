@@ -143,7 +143,6 @@ p {
 nav {
   background-color: #dfbdf2;
   box-shadow: var(--box-shadow);
-  
 }
 
 .logo {
@@ -157,7 +156,8 @@ nav {
   color: black;
 }
 
-.active, .nav-link:hover {
+.active,
+.nav-link:hover {
   color: var(--primary-color);
 }
 /* nav li {
