@@ -8,6 +8,7 @@
 
 body {
   background-color: #eddae8;
+  padding: 150px;
 }
 
 h1 {
@@ -22,9 +23,7 @@ p {
   line-height: 1.7;
 }
 
-.body-content {
-  padding: 50px;
-}
+
 .hero-content {
   background-image: url("../images/background-image.png");
   border-radius: 10px;
@@ -166,7 +165,9 @@ nav {
   color: var(--primary-color) !important ;
 }
 
-
+.footer {
+  background-color:palevioletred;
+}
 @media (max-width: 400px) {
   .hero-content {
     margin: 0px 0px 70px 0px;
