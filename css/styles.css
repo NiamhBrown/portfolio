@@ -141,18 +141,26 @@ p {
 }
 
 nav {
-  padding: 0px 20px;
   background-color: #dfbdf2;
   box-shadow: var(--box-shadow);
-  height: 95px;
+  
 }
+
 .logo {
   max-width: 140px;
   height: 100px;
   border-radius: 50px;
 }
 
-nav li {
+.nav-link {
+  font-family: var(--default-font-family);
+  color: black;
+}
+
+.active, .nav-link:hover {
+  color: var(--primary-color);
+}
+/* nav li {
   display: inline;
   list-style: none;
   line-height: 100px;
@@ -167,7 +175,7 @@ nav a {
   font-family: var(--default-font-family);
   color: black;
   text-decoration: none;
-}
+} */
 
 @media (max-width: 400px) {
   .hero-content {
@@ -177,9 +185,9 @@ nav a {
   .greeting {
     font-size: 25px;
   }
-.name {
-  font-size: 60px;
-}
+  .name {
+    font-size: 60px;
+  }
   .hero-subtitle {
     font-size: 22px;
   }
