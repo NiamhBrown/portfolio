@@ -187,6 +187,18 @@ footer {
   font-size: 25px;
 }
 
+.landing-page-img img {
+  width:373px;
+  height: 300px;
+}
+
+.project-card {
+  background-color:white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
 @media (max-width: 400px) {
   .index-content,
   .about-content,
@@ -216,8 +228,6 @@ footer {
     display: block;
   }
 
-  
-  
   .card-body {
     text-align: center;
   }
