@@ -243,7 +243,7 @@ footer {
 
   .page-heading {
     font-size: 38px;
-    margin: 0px 10px;
+    margin: 10px 10px;
   }
   .footer-text {
     font-size: 14px;
@@ -252,5 +252,14 @@ footer {
   .col-md-8 h2 {
     margin-top: 10px;
   }
+  .project-content h2, .project-content p{
+    text-align: center;
+  }
   
+  .project-content small {
+    font-size: 13px;
+  }
+   .project-button a {
+     margin-right: 0px;
+   }
 }
