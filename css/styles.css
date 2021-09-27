@@ -61,7 +61,7 @@ footer {
 
 .hero-subtitle {
   font-family: var(--default-font-family);
-  font-size: 35px;
+  font-size: 30px;
 }
 .primary-btn,
 .primary-btn-home {
@@ -105,7 +105,7 @@ footer {
   display: block;
   margin: 30px auto;
   padding: 25px;
-  border-radius: 10px;
+  
 }
 .card-title,
 .card {
