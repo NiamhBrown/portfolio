@@ -44,7 +44,7 @@ footer {
   background-image: url("../images/background-image.png");
   border-radius: 10px;
   max-width: 700px;
-  margin:70px auto 80px;
+  margin: 70px auto 80px;
 
   padding: 70px;
   text-align: center;
@@ -106,7 +106,6 @@ footer {
   display: block;
   margin: 30px auto;
   padding: 25px;
-  
 }
 .card-title,
 .card {
@@ -130,7 +129,8 @@ footer {
   font-size: 56px;
 }
 .about-p {
-  line-height: 2;
+  line-height: 1.9;
+  font-size: 15px;
   text-align: justify;
 }
 
@@ -190,12 +190,12 @@ footer {
 }
 
 .landing-page-img img {
-  width:373px;
+  width: 373px;
   height: 300px;
 }
 
 .project-card {
-  background-color:white;
+  background-color: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
@@ -203,8 +203,6 @@ footer {
 
 .collapse-card {
   background-color: #eddae8;
-  
-
 }
 @media (max-width: 400px) {
   .index-content,
@@ -230,16 +228,14 @@ footer {
   .about-me-section h2 {
     font-size: 22px;
   }
-  .profile-img img {
+  .profile-img img{
     margin: 40px auto 5px;
     display: block;
+   
   }
-
-  
 
   .card-body {
     text-align: center;
-    
   }
 
   .page-heading {
@@ -253,14 +249,15 @@ footer {
   .col-md-8 h2 {
     margin-top: 10px;
   }
-  .project-content h2, .project-content p{
+  .project-content h2,
+  .project-content p {
     text-align: center;
   }
-  
+
   .project-content small {
     font-size: 13px;
   }
-   .project-button a {
-     margin-right: 0px;
-   }
+  .project-button a {
+    margin-right: 0px;
+  }
 }
