@@ -1,10 +1,12 @@
 :root {
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Playfair Display", serif; 
   --default-font-family: "Poppins", sans-serif;
   --primary-color: #f70776;
   --secondary-color: #7dd87d;
   --background-color: #F7F7F7; 
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.02);
+
  
 }
 
@@ -49,8 +51,7 @@ footer {
   border: 2px solid var(--primary-color);
   max-width: 700px;
   margin: 70px auto 80px;
-
-  padding: 70px;
+  padding: 40px;
   text-align: center;
   box-shadow: var(--box-shadow);
 }
@@ -103,8 +104,8 @@ footer {
 .text-link {
   color: var(--primary-color);
 }
-.link:hover {
-  color: var(--primary-color);
+.link:hover, .text-link:hover {
+  color: var(--secondary-color);
 }
 .card {
   box-shadow: var(--box-shadow);
@@ -183,11 +184,12 @@ footer {
   font-family: var(--default-font-family);
   font-size: 20px;
   color: black !important;
+  
 }
 
 .active,
 .nav-link:hover {
-  color: var(--primary-color) !important ;
+  color: var(--secondary-color) !important ;
 }
 
 .social-links {
@@ -236,7 +238,6 @@ footer {
   .profile-img img{
     margin: 40px auto 5px;
     display: block;
-   
   }
 
   .card-body {
@@ -265,4 +266,8 @@ footer {
   .project-button a {
     margin-right: 0px;
   }
+
+  .project-card {
+    padding: 15px;
+}
 }
