@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-![Portfolio Preview]()
+![Portfolio Preview](images/portfolio-screenshot.png)
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ This is my personal portfolio website, designed to showcase my projects, skills,
 
 # Features 
 - Responsive design
-- Project showcases with descriptions and links.
+- Project showcases with descriptions and links
   
 # Built with 
 - **HTML5**
